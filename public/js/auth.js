@@ -2,7 +2,7 @@ const miFormulario = document.querySelector('form');
 
 const url = ( window.location.hostname.includes('localhost') )
   ? 'http://localhost:8080/api/auth/'
-  : 'https://restserver-node-oamh.herokuapp.com/api/auth/'
+  : 'https://socket-app-oamh.onrender.com/api/auth/'
 
 miFormulario.addEventListener('submit', ev => {
   ev.preventDefault();
