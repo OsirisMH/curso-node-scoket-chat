@@ -11,7 +11,7 @@ const btnSalir   = document.querySelector('#btnSalir');
 
 const url = ( window.location.hostname.includes('localhost') )
   ? 'http://localhost:8080/api/auth/'
-  : 'https://restserver-node-oamh.herokuapp.com/api/auth/'
+  : 'https://socket-app-oamh.onrender.com/api/auth/'
 
 // Validar el token del localstorage
 const validarJWT = async () => {
